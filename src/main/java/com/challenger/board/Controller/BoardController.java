@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class BoardController {
 @Autowired
     private BoardService boardService;
-    @GetMapping("/board/write") //localhost:8090/board/write
+    @GetMapping("/") //localhost:8090/board/write
     public String boardWrieForm(){
 
         return "boardwrite";
